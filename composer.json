@@ -1,5 +1,5 @@
 {
-    "name": "cretueusebiu/laravel-vue-spa",
+    "name": "mhassan/laravel-vue-spa",
     "description": "A Laravel-Vue SPA starter project template.",
     "keywords": ["spa", "laravel", "vue"],
     "license": "MIT",
@@ -18,8 +18,7 @@
     "require-dev": {
         "doctrine/dbal": "^2.13",
         "facade/ignition": "^2.5",
-        "fakerphp/faker": "^1.9.1",
-        "laravel/dusk": "^6.17",
+        "fakerphp/faker": "^1.9.1",     
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3"
@@ -52,8 +51,7 @@
     "extra": {
         "laravel": {
             "dont-discover": [
-              "laravel/dusk"
-            ]
+                      ]
         }
     },
     "config": {
